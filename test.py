@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 video = cv2.VideoCapture(0)
-image = cv2.imread('riya.jpeg')
+image = cv2.imread('pic.jpg')
 
 while True:
     ret,frame = video.read()
